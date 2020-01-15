@@ -1,0 +1,23 @@
+.icon-button {
+  padding: 4px 0 0;
+  border: 0;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+
+  &-badge {
+    background: $gradient;
+    color: #ffffff;
+    font-size: 6px;
+    border-radius: 7px;
+    padding: 0 2px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 14px;
+    display: block;
+    min-width: 14px;
+    position: absolute;
+    left: 7px;
+    top: 0;
+  }
+}

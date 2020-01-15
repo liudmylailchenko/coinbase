@@ -1,0 +1,26 @@
+.header {
+  padding: 0 100px 0 65px;
+  height: 80px;
+  background: #ffffff;
+  border: 2px solid #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .search {
+    width: 422px;
+  }
+
+  &-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-link {
+    margin-left: 52px;
+  }
+
+  .icon-button {
+    margin-left: 43px;
+  }
+}

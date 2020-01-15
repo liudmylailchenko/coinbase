@@ -1,0 +1,16 @@
+.panel {
+  padding: 45px 52px;
+  background: #ffffff;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+
+  &-content {
+  }
+
+  .dots-menu {
+    position: absolute;
+    top: 50px;
+    right: 46px;
+  }
+}
